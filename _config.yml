@@ -1,0 +1,42 @@
+# GitHub Pages bu depoyu Jekyll ile derliyor: kökteki .md dosyaları yayında
+# HTML sayfaya dönüşüyor ve adres dosya adından geliyor
+# (gizlilik-politikasi.md -> https://kaptra-app.github.io/gizlilik-politikasi).
+#
+# Depoya .nojekyll EKLENMEZ. Jekyll'i kapatır, .md dosyaları ham metin olarak
+# yayımlanır.
+#
+# Uygulama bu iki adrese bağlanıyor (kaptra-app/lib/core/constants.dart).
+# Dosyalardan biri yeniden adlandırılırsa uygulamadaki bağlantı ölür ve bunu
+# yakalayan bir test yok: adresler gönderimden önce elle açılıyor.
+
+title: Kaptra
+lang: tr
+
+# Politika dosyalarında front matter yok, yalnızca metni taşıyorlar. Dil ve
+# dil değiştirme bağlantısı buradan geliyor.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: gizlilik-politikasi.md
+    values:
+      lang: tr
+      alternate:
+        lang: en
+        label: English
+        url: /privacy-policy
+  - scope:
+      path: privacy-policy.md
+    values:
+      lang: en
+      alternate:
+        lang: tr
+        label: Türkçe
+        url: /gizlilik-politikasi
+
+# Front matter'sız .md dosyasını sayfaya çeviren eklenti (GitHub Pages'te hep
+# açık) ham dosyayı da ayrıca yayımlamasın.
+optional_front_matter:
+  remove_originals: true
