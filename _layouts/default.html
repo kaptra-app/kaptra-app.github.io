@@ -54,7 +54,7 @@
   h1 { font-size: 1.75rem; margin: 0 0 .75rem; }
   h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; }
 
-  /* Başlığın altındaki "Son güncelleme" satırı. */
+  /* Başlığın altındaki satır: politikalarda "Son güncelleme", ana sayfada tanım. */
   h1 + p { color: var(--muted); }
 
   p, ul { margin: 0 0 1rem; }
@@ -63,11 +63,13 @@
   li::marker { color: var(--muted); }
   strong { font-weight: 600; }
 
-  .landing { padding: 4rem 0; text-align: center; }
-  .landing .mark { display: block; width: 4rem; height: 4rem; margin: 0 auto 1.25rem; }
-  .landing ul { list-style: none; max-width: 20rem; margin: 2rem auto 0; padding: 0; }
-  .landing li { margin: .75rem 0 0; }
-  .landing a {
+  /* Ana sayfa: küçük ürün sayfası. */
+  .landing { padding: 3rem 0 1rem; text-align: center; }
+  .landing .icon { display: block; width: 6rem; height: 6rem; margin: 0 auto 1.25rem; }
+  .landing .about { max-width: 32rem; margin: 2rem auto 0; }
+  .landing .buttons { list-style: none; max-width: 20rem; margin: 2rem auto 0; padding: 0; }
+  .landing .buttons li { margin: .75rem 0 0; }
+  .landing .buttons a {
     display: block;
     padding: .875rem 1rem;
     border: 1px solid var(--outline);
@@ -75,7 +77,9 @@
     font-weight: 600;
     text-decoration: none;
   }
-  .landing a:hover { border-color: var(--amber); }
+  .landing .buttons a:hover { border-color: var(--amber); }
+  .landing .support { margin-top: 2.5rem; color: var(--muted); }
+  .landing .support a { display: inline-block; padding: .5rem 0; }
 
   /* Koyu zemin kâğıda basılmıyor; açık renk metin de kaybolmasın. */
   @media print {
