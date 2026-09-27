@@ -1,4 +1,4 @@
-# Kaptra — Gizlilik Politikası
+# Kaptra - Gizlilik Politikası
 
 Son güncelleme: 24 Eylül 2026
 

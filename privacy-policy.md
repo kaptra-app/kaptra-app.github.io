@@ -1,4 +1,4 @@
-# Kaptra — Privacy Policy
+# Kaptra - Privacy Policy
 
 Last updated: September 24, 2026
 
