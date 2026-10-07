@@ -1,6 +1,6 @@
 # Kaptra - Privacy Policy
 
-Last updated: September 24, 2026
+Last updated: October 7, 2026
 
 This policy covers the Android version of Kaptra.
 
@@ -10,12 +10,14 @@ This policy covers the Android version of Kaptra.
   anywhere, and does not put them in your phone's Google backup either.
   Scanning, text recognition and PDF creation happen on your phone.
 - We have no servers, no accounts and no cloud. As Kaptra's developer, we
-  receive no data from you: neither your documents nor how you use the app.
+  receive no data from the app: neither your documents nor how you use it.
+  Only what you send us yourself reaches us: an email you write to us or a
+  review you leave on Google Play.
 - No ads. No analytics or tracking tools were added to Kaptra.
 - Kaptra has no internet permission. The app itself cannot open a network
   connection.
-- The scanner and purchases are provided by Google. What these two components
-  may send to Google is explained separately below.
+- The scanner, purchases and the rating dialog are provided by Google. What
+  these components may send to Google is explained separately below.
 
 ## Your documents
 
@@ -33,8 +35,10 @@ Your data stays only on your phone, until you delete it.
   exported them first, your documents cannot be recovered (see "Your phone's
   backup").
 
-Because we hold no data about you, there is no need to request access to,
-correction of or deletion of your data; your data is already only with you.
+Because the app sends us no data about you, there is no need to request
+access to, correction of or deletion of your data; your data is already only
+with you. If you email us, your address and message are used only to reply
+to you; you can ask us to delete them by writing to the same address.
 
 ## Security
 
@@ -100,6 +104,17 @@ text recognition, they cannot leave your phone: Kaptra has no internet
 permission, and Android does not allow an app without that permission to
 open a network connection. We verified this on the release build before
 publishing, too.
+
+## Ratings
+
+After you have sent a few documents, Kaptra may ask Google Play to show its
+rating dialog; Google Play decides whether it appears. "Rate Kaptra" in About
+also opens Kaptra's page on Google Play. The dialog belongs to Google Play:
+the rating and review you give go to Google Play, not to Kaptra, and are
+published on Google Play as a public review. Kaptra does not learn what you
+do in the dialog, or even whether it was shown. Ratings are subject to Google
+Play's terms of service and Google's privacy policy; you can delete your
+review on Google Play.
 
 ## Permissions
 

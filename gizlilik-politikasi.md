@@ -1,6 +1,6 @@
 # Kaptra - Gizlilik Politikası
 
-Son güncelleme: 24 Eylül 2026
+Son güncelleme: 7 Ekim 2026
 
 Bu politika Kaptra'nın Android sürümünü kapsar.
 
@@ -10,12 +10,13 @@ Bu politika Kaptra'nın Android sürümünü kapsar.
   göndermez, telefonunuzun Google yedeğine de koymaz. Tarama, metin tanıma
   ve PDF üretimi telefonunuzda yapılır.
 - Sunucumuz, hesap sistemimiz ve bulutumuz yok. Biz, Kaptra'nın geliştiricisi
-  olarak, sizden hiçbir veri almıyoruz: ne belgelerinizi ne de uygulamayı
-  nasıl kullandığınızı.
+  olarak, uygulamadan hiçbir veri almıyoruz: ne belgelerinizi ne de
+  uygulamayı nasıl kullandığınızı. Bize yalnızca kendi gönderdiğiniz ulaşır:
+  bize yazdığınız bir e-posta ya da Google Play'de bıraktığınız bir yorum.
 - Reklam yok. Kaptra'ya analitik ya da izleme aracı eklenmedi.
 - Kaptra'nın internet izni yok. Uygulamanın kendisi ağ bağlantısı açamaz.
-- Tarayıcıyı ve satın almayı Google sağlar. Bu iki bileşenin Google'a ne
-  gönderebileceği aşağıda ayrıca anlatılıyor.
+- Tarayıcıyı, satın almayı ve değerlendirme panelini Google sağlar. Bu
+  bileşenlerin Google'a ne gönderebileceği aşağıda ayrıca anlatılıyor.
 
 ## Belgeleriniz
 
@@ -33,8 +34,11 @@ Verileriniz yalnızca telefonunuzda ve siz silene kadar durur.
   silinir. Önce dışa aktarmadıysanız belgeleriniz geri getirilemez (bkz.
   "Telefonunuzun yedeği").
 
-Sizinle ilgili hiçbir veri tutmadığımız için erişim, düzeltme ya da silme
-talebinde bulunmanıza gerek yok; verileriniz zaten yalnızca sizde.
+Uygulama sizinle ilgili hiçbir veriyi bize göndermediği için erişim,
+düzeltme ya da silme talebinde bulunmanıza gerek yok; verileriniz zaten
+yalnızca sizde. Bize e-posta yazarsanız adresiniz ve iletiniz yalnızca size
+cevap vermek için kullanılır; silinmesini aynı adrese yazarak
+isteyebilirsiniz.
 
 ## Güvenlik
 
@@ -100,6 +104,18 @@ Metin tanımadaki gibi bunlar da telefonunuzdan çıkamaz: Kaptra'nın internet
 izni yok ve Android, internet izni olmayan bir uygulamanın ağ bağlantısı
 açmasına işletim sistemi düzeyinde izin vermez. Bunu da mağazaya gönderilen
 sürümde yayından önce doğruladık.
+
+## Değerlendirme
+
+Birkaç belge gönderdikten sonra Kaptra, Google Play'den değerlendirme
+panelini göstermesini isteyebilir; panelin çıkıp çıkmayacağına Google Play
+karar verir. Hakkında'daki "Kaptra'yı değerlendir" de Kaptra'nın Google Play
+sayfasını açar. Panel Google Play'indir: verdiğiniz puan ve yazdığınız yorum
+Kaptra'ya değil Google Play'e gider ve Google Play'de herkese açık bir yorum
+olarak yayımlanır. Kaptra panelde ne yaptığınızı öğrenmez; panelin
+gösterilip gösterilmediğini de bilmez. Değerlendirme Google Play'in kullanım
+koşullarına ve Google'ın gizlilik politikasına tabidir; yorumunuzu Google
+Play'de silebilirsiniz.
 
 ## İzinler
 
