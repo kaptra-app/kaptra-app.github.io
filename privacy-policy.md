@@ -1,6 +1,6 @@
 # Kaptra - Privacy Policy
 
-Last updated: October 7, 2026
+Last updated: October 8, 2026
 
 This policy covers the Android version of Kaptra.
 
@@ -80,7 +80,7 @@ on your phone and the scanned pages are handed to Kaptra.
 
 ## Text recognition
 
-Text recognition (Premium) also uses Google ML Kit, but this component runs
+Text recognition also uses Google ML Kit, but this component runs
 inside Kaptra rather than in Google Play services: the recognition model ships
 with the app and needs no internet. Recognized text is stored only on your
 phone, next to its document.
@@ -89,7 +89,7 @@ Google's component produces its own usage statistics and queues them on the
 phone to be sent to Google. Because Kaptra has no internet permission, these
 statistics cannot leave your phone: Android does not allow an app without
 that permission to open a network connection. We verified this on the
-release build before publishing.
+version available on Google Play.
 
 ## Purchases
 
@@ -102,8 +102,8 @@ service and Google's privacy policy.
 Google's billing library also produces its own usage statistics. As with
 text recognition, they cannot leave your phone: Kaptra has no internet
 permission, and Android does not allow an app without that permission to
-open a network connection. We verified this on the release build before
-publishing, too.
+open a network connection. We verified this on the version available on
+Google Play, too.
 
 ## Ratings
 
@@ -122,8 +122,8 @@ Kaptra asks your phone for these permissions only:
 
 - **View network state.** To answer "is there a connection?" before opening
   the scanner: if the scanner has not been downloaded yet and there is no
-  connection, Kaptra shows its own explanation instead of Google's error page,
-  which has no way out. This permission cannot send data.
+  connection, Kaptra does not start the scan and tells you to connect to the
+  internet first. This permission cannot send data.
 - **Google Play billing.** For the Premium purchase.
 
 There is no camera, photos, location, contacts or internet permission.

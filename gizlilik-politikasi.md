@@ -1,6 +1,6 @@
 # Kaptra - Gizlilik Politikası
 
-Son güncelleme: 7 Ekim 2026
+Son güncelleme: 8 Ekim 2026
 
 Bu politika Kaptra'nın Android sürümünü kapsar.
 
@@ -80,7 +80,7 @@ sayfalar Kaptra'ya teslim edilir.
 
 ## Metin tanıma
 
-Metin tanıma (Premium) de Google ML Kit ile yapılır, ama bu bileşen Google
+Metin tanıma da Google ML Kit ile yapılır, ama bu bileşen Google
 Play hizmetlerinden değil, Kaptra'nın kendi içinden çalışır: tanıma modeli
 uygulamanın içinde gelir ve internet gerektirmez. Tanınan metin yalnızca
 telefonunuzda, belgenin yanında saklanır.
@@ -89,7 +89,7 @@ Google'ın bu bileşeni kendi kullanım istatistiklerini üretir ve Google'a
 göndermek üzere telefonda sıraya koyar. Kaptra'nın internet izni olmadığı
 için bu istatistikler telefonunuzdan çıkamaz: Android, internet izni olmayan
 bir uygulamanın ağ bağlantısı açmasına işletim sistemi düzeyinde izin
-vermez. Mağazaya gönderilen sürümde yayından önce doğruladık.
+vermez. Bunu Google Play'deki sürümde doğruladık.
 
 ## Satın alma
 
@@ -102,8 +102,8 @@ kullanım koşullarına ve Google'ın gizlilik politikasına tabidir.
 Google'ın satın alma kütüphanesi de kendi kullanım istatistiklerini üretir.
 Metin tanımadaki gibi bunlar da telefonunuzdan çıkamaz: Kaptra'nın internet
 izni yok ve Android, internet izni olmayan bir uygulamanın ağ bağlantısı
-açmasına işletim sistemi düzeyinde izin vermez. Bunu da mağazaya gönderilen
-sürümde yayından önce doğruladık.
+açmasına işletim sistemi düzeyinde izin vermez. Bunu da Google Play'deki
+sürümde doğruladık.
 
 ## Değerlendirme
 
@@ -122,9 +122,9 @@ Play'de silebilirsiniz.
 Kaptra telefonunuzdan yalnızca şu izinleri ister:
 
 - **Ağ durumunu görme.** Tarayıcıyı açmadan önce "bağlantı var mı" sorusunu
-  cevaplamak için: tarayıcı henüz inmemişse ve bağlantı yoksa, Google'ın
-  çıkışı olmayan hata sayfası yerine Kaptra kendi açıklamasını gösterir. Bu
-  izin veri göndermeye yetmez.
+  cevaplamak için: tarayıcı henüz indirilmemişse ve bağlantı yoksa, Kaptra
+  taramayı başlatmaz, önce internete bağlanmanız gerektiğini söyler. Bu izin
+  veri göndermeye yetmez.
 - **Google Play faturalandırma.** Premium satın alımı için.
 
 Kamera, fotoğraf, konum, kişiler ve internet izni yoktur.
