@@ -1,6 +1,6 @@
 # Kaptra - Gizlilik Politikası
 
-Son güncelleme: 8 Ekim 2026
+Son güncelleme: 11 Ekim 2026
 
 Bu politika Kaptra'nın Android sürümünü kapsar.
 
@@ -48,8 +48,8 @@ isteyebilirsiniz.
   erişemez.
 - Kaptra verilerinizi hiçbir yere aktarmaz: sunucusu yok, internet izni
   olmadığı için ağ bağlantısı da açamaz. Verileriniz telefondan yalnızca
-  sizin başlattığınız paylaşma, dışa aktarma ya da telefondan telefona
-  aktarımla çıkar.
+  sizin başlattığınız paylaşma, dosyaya kaydetme, dışa aktarma ya da
+  telefondan telefona aktarımla çıkar.
 
 ## Tarama ve Google Play hizmetleri
 
@@ -57,6 +57,11 @@ Kamera ekranı ve kenar tespiti Kaptra'nın değil, Google Play hizmetlerinin
 belge tarayıcısıdır (Google ML Kit). Kamerayı Google Play hizmetleri açar;
 Kaptra'nın kamera izni yoktur. Tarama telefonunuzda yapılır ve taranan
 sayfalar Kaptra'ya teslim edilir.
+
+Aynı ekranda kamera yerine galerinizdeki bir fotoğrafı da seçebilirsiniz.
+Fotoğrafı telefonunuzun fotoğraf seçicisinden seçersiniz; seçiciyi Google
+Play hizmetleri açar. Kaptra'nın fotoğraflarınıza erişim izni yoktur;
+Kaptra'ya yalnızca seçtiğiniz fotoğraftan çıkan sayfa teslim edilir.
 
 - **İlk kullanımda indirme.** Tarayıcı telefonunuzda yoksa Google Play
   hizmetleri onu ilk taramada Google'dan indirir. Bunun için bir kez internet
@@ -107,8 +112,8 @@ sürümde doğruladık.
 
 ## Değerlendirme
 
-Birkaç belge gönderdikten sonra Kaptra, Google Play'den değerlendirme
-panelini göstermesini isteyebilir; panelin çıkıp çıkmayacağına Google Play
+Birkaç belgeyi paylaştıktan ya da dosyaya kaydettikten sonra Kaptra, Google
+Play'den değerlendirme panelini göstermesini isteyebilir; panelin çıkıp çıkmayacağına Google Play
 karar verir. Hakkında'daki "Kaptra'yı değerlendir" de Kaptra'nın Google Play
 sayfasını açar. Panel Google Play'indir: verdiğiniz puan ve yazdığınız yorum
 Kaptra'ya değil Google Play'e gider ve Google Play'de herkese açık bir yorum
@@ -145,8 +150,9 @@ kullanın.
 
 ## Dışa aktarma ve paylaşma
 
-Bir belgeyi paylaştığınızda ya da bütün belgeleri dışa aktardığınızda dosya,
-sizin seçtiğiniz yere ya da uygulamaya gider. Oradan sonrası o uygulamanın ya
+Bir belgeyi paylaştığınızda, PDF olarak bir dosyaya kaydettiğinizde ya da
+bütün belgeleri dışa aktardığınızda dosya, sizin seçtiğiniz yere ya da
+uygulamaya gider. Oradan sonrası o uygulamanın ya
 da hizmetin koşullarına tabidir. Dışa aktarılan yedek dosyası şifrelenmez:
 dosyaya ulaşan herkes içindeki belgeleri görebilir. Kaptra bunu dışa aktarma
 anında da söyler.

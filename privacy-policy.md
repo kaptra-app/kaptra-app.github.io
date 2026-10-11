@@ -1,6 +1,6 @@
 # Kaptra - Privacy Policy
 
-Last updated: October 8, 2026
+Last updated: October 11, 2026
 
 This policy covers the Android version of Kaptra.
 
@@ -48,8 +48,8 @@ to you; you can ask us to delete them by writing to the same address.
   cannot access it.
 - Kaptra does not transfer your data anywhere: it has no servers, and
   without the internet permission it cannot open a network connection. Your
-  data leaves the phone only through sharing, exporting or a phone-to-phone
-  transfer that you start.
+  data leaves the phone only through sharing, saving to a file, exporting or
+  a phone-to-phone transfer that you start.
 
 ## Scanning and Google Play services
 
@@ -57,6 +57,11 @@ The camera screen and edge detection are not Kaptra's own: they are the
 document scanner of Google Play services (Google ML Kit). Google Play
 services opens the camera; Kaptra has no camera permission. Scanning happens
 on your phone and the scanned pages are handed to Kaptra.
+
+On the same screen you can pick a photo from your gallery instead of using
+the camera. You pick it in your phone's photo picker, which Google Play
+services opens. Kaptra has no permission to access your photos; only the page
+made from the photo you pick is handed to Kaptra.
 
 - **Download on first use.** If the scanner is not yet on your phone, Google
   Play services downloads it from Google on your first scan. This needs an
@@ -107,8 +112,8 @@ Google Play, too.
 
 ## Ratings
 
-After you have sent a few documents, Kaptra may ask Google Play to show its
-rating dialog; Google Play decides whether it appears. "Rate Kaptra" in About
+After you have shared a few documents or saved them to a file, Kaptra may
+ask Google Play to show its rating dialog; Google Play decides whether it appears. "Rate Kaptra" in About
 also opens Kaptra's page on Google Play. The dialog belongs to Google Play:
 the rating and review you give go to Google Play, not to Kaptra, and are
 published on Google Play as a public review. Kaptra does not learn what you
@@ -145,8 +150,8 @@ To back up your documents, use "Export all documents" in Settings.
 
 ## Exporting and sharing
 
-When you share a document or export all documents, the file goes to the
-place or app you choose. From there on, that app's or service's terms apply.
+When you share a document, save it to a file as a PDF or export all
+documents, the file goes to the place or app you choose. From there on, that app's or service's terms apply.
 The exported backup file is not encrypted: anyone who gets the file can see
 the documents in it. Kaptra says so when you export, too.
 
